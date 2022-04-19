@@ -173,6 +173,22 @@ footer{
   object-fit: cover;
 }
 /*forestillinger slut*/
+
+/* bliv festspiller*/
+#festspiller {
+  width: 100vw;
+  margin-top: 0px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;  
+  color:black;
+  font-size: 30px;
+}
+#festspillertekst{
+font-size: 20px;
+color:black; 
+}
+
 @media only screen and (max-width: 600px) {
   #desktop-menu-container{
     display: flex;
