@@ -10,8 +10,6 @@ body{
   display: none;
 }
 /*forside*/
-nav{
-}
 #mlogo{
   float:left;
   margin: 10px;
@@ -141,8 +139,7 @@ h3, h4{
   margin-right:30px;
   margin-top: 0;
 }
-.info-container{
-}
+
 #billede1{
   max-width:540px;
   margin-left: 33%;
@@ -257,6 +254,122 @@ footer{
 /*Stephanie slut*/
 
 /*forestillinger slut*/
+<<<<<<< HEAD
+/*om os (David)*/
+#timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: grey;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid grey;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid grey;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+#omos1 {
+  
+
+}
+/*Om os (slut)*/
+=======
+
+/* bliv festspiller*/
+#festspiller {
+  width: 100vw;
+  margin-top: 0px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;  
+  color:black;
+  font-size: 30px;
+}
+#festspillertekst{
+font-size: 20px;
+color:black; 
+margin-top: 30px;
+}
+#tilmeld{
+text-align: right;
+margin-top: 20px;
+outline-style: solid;
+}
+
+
+>>>>>>> 20ce51cc47f6082f9b3bf68bdc8b09cf9e53e725
 @media only screen and (max-width: 600px) {
   #desktop-menu-container{
     display: none;
@@ -301,3 +414,57 @@ footer{
     padding: 10px;
   }
 }
+
+
+
+/* TANIA */
+/* Galleri */
+
+* {box-sizing:border-box}
+
+/* Galleri billeder */ 
+.galleri-billeder{
+  max-height: 220px;
+  width: 100vw;
+  object-fit: cover;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  min-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active, .dot:hover {
+  background-color: var(--clr-header);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+
+  /* Galleri slut */ 
