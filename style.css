@@ -10,8 +10,6 @@ body{
   display: none;
 }
 /*forside*/
-nav{
-}
 #mlogo{
   float:left;
   margin-bottom: 5px;
@@ -108,8 +106,7 @@ h3, h4{
   margin-right:30px;
   margin-top: 0;
 }
-.info-container{
-}
+
 #billede1{
   max-width:540px;
   margin-left: 33%;
