@@ -360,11 +360,29 @@ font-size: 20px;
 color:black;
 margin-top: 30px;
 }
-#tilmeld{
-text-align: right;
-margin-top: 20px;
-outline-style: solid;
+
+#tilmeldboks{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding:20px;
 }
+
+#tilmeld{
+text-align: center;
+width:100%;
+background-color: #6894B2;
+color: white;
+}
+
+#festspillercontainer{
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 20px;
+  margin-top: 20px;
+  outline-style: solid;
+  }
+
 
 
 @media only screen and (max-width: 600px) {
