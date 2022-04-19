@@ -12,7 +12,7 @@ body{
 /*forside*/
 #mlogo{
   float:left;
-  margin: 10px;
+  margin-bottom: 5px;
   max-width:200px;
   max-height:auto;
 }
@@ -38,13 +38,13 @@ h3, h4{
   position: static;
   z-index: 1;
   width: 100vw;
-  height: 100px;
+  height: 70px;
   justify-content: space-between;
 }
 #menu{
   float: right;
   position: relative;
-  bottom: -35px;
+  bottom: -45px;
 }
 .menupunkt{
   padding-right: 20px;
@@ -52,6 +52,7 @@ h3, h4{
 #hero{
   position: relative;
   text-align: center;
+  color: purple;
   max-width: 100vw;
   height: auto;
 }
@@ -72,44 +73,10 @@ h3, h4{
 #overskrift1{
   position: absolute;
   text-align: left;
-  top: 30px;
-  left: 20vw;
-  font-size: 30px;
-  color: white;
+  top: 10px;
+  left: 45vw;
+  font-size: 60px;
 }
-.nav-links {
-  display:flex;
-  max-height:50%;
-}
-
-.nav-links ul{
-  list-style: none;
-  font-size: 20px;
-}
-
-.nav-links a{
-  text-decoration: none;
-  font-weight:bold;
-  font-size: 15px;
-  color: white;
-  text-align:right;
-  font-weight: bold;
-  line-height: 3;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color:black;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-#burger{
-  display: none;
-  cursor: pointer;
-}
-
 .hero-container{
   position: absolute;
   top: 45%;
@@ -205,78 +172,35 @@ footer{
   height:130px;
   object-fit: cover;
 }
-
-/*Stephanie*/
-
-.h1 {grid-area: a;
-}
-.info {grid-area: b;}
-.info {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-
-.container1 {
-  display: grid;
-  grid-template-areas: 'a b';
-  gap: 10px 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-.tekst1 {grid-area: a;}
-.tekst1 {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-.tekst2 {grid-area: b;}
-.tekst2 {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-
-.container2 {
-  display: grid;
-  grid-template-areas: 'a' 'b';
-  gap: 10px 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-
-/*Stephanie slut*/
-
 /*forestillinger slut*/
-<<<<<<< HEAD
-/*om os (David)*/
-#timeline {
+/*om os*/
+.timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-#timeline::after {
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: grey;
+  background-color: white;
   top: 0;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
 }
+
+/* Container around content */
 .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
+
+/* The circles on the timeline */
 .container::after {
   content: '';
   position: absolute;
@@ -309,7 +233,7 @@ footer{
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid grey;
+  border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
 }
@@ -323,7 +247,7 @@ footer{
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid grey;
+  border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
 }
@@ -340,26 +264,19 @@ footer{
   position: relative;
   border-radius: 6px;
 }
-#omos1 {
-  
-
-}
-/*Om os (slut)*/
-=======
-
 /* bliv festspiller*/
 #festspiller {
   width: 100vw;
   margin-top: 0px;
   height: 220px;
   object-fit: cover;
-  object-position: center;  
+  object-position: center;
   color:black;
   font-size: 30px;
 }
 #festspillertekst{
 font-size: 20px;
-color:black; 
+color:black;
 margin-top: 30px;
 }
 #tilmeld{
@@ -369,18 +286,11 @@ outline-style: solid;
 }
 
 
->>>>>>> 20ce51cc47f6082f9b3bf68bdc8b09cf9e53e725
 @media only screen and (max-width: 600px) {
   #desktop-menu-container{
-    display: none;
+    display: flex;
     flex-direction: column;
   }
-
-  #burger{
-    display: block;
-    cursor: pointer;
-  }
-
   #mlogo{
     margin-bottom: 5px;
     max-width:200px;
@@ -422,11 +332,12 @@ outline-style: solid;
 
 * {box-sizing:border-box}
 
-/* Galleri billeder */ 
+/* Galleri billeder */
 .galleri-billeder{
-  max-height: 220px;
+  max-height: 300px;
   width: 100vw;
   object-fit: cover;
+  object-position: center;
 }
 
 /* Slideshow container */
@@ -467,4 +378,4 @@ outline-style: solid;
   from {opacity: .4}
   to {opacity: 1}
 
-  /* Galleri slut */ 
+  /* Galleri slut */
