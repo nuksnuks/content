@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="da" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,17 +8,20 @@
     <title>H.C Andersen festspillene</title>
   </head>
   <body>
-    <nav id="menu">
-      <img src="images/menulogo.png" id="logo">
-      <a class="menupunkt" id="menupunkt1">Forestillinger</a>
-      <a class="menupunkt" id="menupunkt2">Om Os</a>
-      <a class="menupunkt" id="menupunkt3">Frivillige</a>
-      <a class="menupunkt" id="menupunkt4">Bliv festspiller</a>
-      <a class="menupunkt" id="menupunkt5">Køb billet</a>
-    </nav>
+    <div id="desktop-menu-container">
+      <script src="scripts/menu.js" charset="utf-8"></script>
+      <img src="images/menulogo.png" id="mlogo" alt="menulogo">
+      <nav id="menu">
+        <a href="forestilling.html" class="menupunkt" id="menupunkt1">Forestillinger</a>
+        <a href="om_os.html" class="menupunkt" id="menupunkt2">Om Os</a>
+        <a href="frivillige.html" class="menupunkt" id="menupunkt3">Frivillige</a>
+        <a href="festspiller.html" class="menupunkt" id="menupunkt4">Bliv festspiller</a>
+        <a href="billet.html" class="menupunkt" id="menupunkt5">Køb billet</a>
+      </nav>
+    </div>
     <div id="hero">
       <img src="images/hcafhos.jpg" alt="banner" id="banner">
-      <h1 id="overskrift">HYRDINDEN & <br>SKORSTENSFEJEREN</h1>
+      <h1 id="overskrift1">HYRDINDEN & SKORSTENSFEJEREN</h1>
       <div class="hero-container">
         <div><button class="heroknap">Læs mere</button></div>
         <div><button class="heroknap">Køb billet</button></div>
@@ -43,7 +46,7 @@
         </div>
         <div class="info-container">
           <img src="images/hcaf_show.jpg" alt="sommerforestilling" id="billede1">
-          <div>
+          <div id="tilmelding-container">
             <p id="tilmelding1">Tilmeld mig nyhedsbrevet, og før mig med ind i eventyret<br>
               <input type="text" name="name" value="Navn">
               <input type="text" name="name" value="E-mail">
@@ -67,10 +70,13 @@
     </div>
     <footer>
       <div class="footer-container">
-        <img src="">
+        <img src="images/footerlogo.png" id="flogo" alt="footerlogo">
         <div class="footerelement">
           <h3 class="footertext">Kontakt</h3>
-          <p>
+          <p class="footertext">
+          <b>Telefon:</b> +45 24 22 09 56<br>
+          <b>E-mail:</b> mail@hcandersenfestspillene.dk<br>
+          <b>Adresse:</b> Kanalvej 154C, 5000 Odense C<br>
           </p>
         </div>
         <div class="footerelement">
