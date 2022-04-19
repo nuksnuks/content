@@ -33,7 +33,7 @@ h3, h4{
 }
 #hero{
   position: relative;
-  test-align: center;
+  text-align: center;
   color: tomato;
   max-width: 100vw;
   height:auto;
