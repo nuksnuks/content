@@ -14,7 +14,7 @@ nav{
 }
 #mlogo{
   float:left;
-  margin-bottom: 5px;
+  margin: 10px;
   max-width:200px;
   max-height:auto;
 }
@@ -40,13 +40,13 @@ h3, h4{
   position: static;
   z-index: 1;
   width: 100vw;
-  height: 70px;
+  height: 100px;
   justify-content: space-between;
 }
 #menu{
   float: right;
   position: relative;
-  bottom: -45px;
+  bottom: -35px;
 }
 .menupunkt{
   padding-right: 20px;
@@ -54,7 +54,6 @@ h3, h4{
 #hero{
   position: relative;
   text-align: center;
-  color: purple;
   max-width: 100vw;
   height: auto;
 }
@@ -75,10 +74,44 @@ h3, h4{
 #overskrift1{
   position: absolute;
   text-align: left;
-  top: 10px;
-  left: 45vw;
-  font-size: 60px;
+  top: 30px;
+  left: 20vw;
+  font-size: 30px;
+  color: white;
 }
+.nav-links {
+  display:flex;
+  max-height:50%;
+}
+
+.nav-links ul{
+  list-style: none;
+  font-size: 20px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 15px;
+  color: white;
+  text-align:right;
+  font-weight: bold;
+  line-height: 3;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color:black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+#burger{
+  display: none;
+  cursor: pointer;
+}
+
 .hero-container{
   position: absolute;
   top: 45%;
@@ -175,12 +208,66 @@ footer{
   height:130px;
   object-fit: cover;
 }
+
+/*Stephanie*/
+
+.h1 {grid-area: a;
+}
+.info {grid-area: b;}
+.info {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+
+.container1 {
+  display: grid;
+  grid-template-areas: 'a b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.tekst1 {grid-area: a;}
+.tekst1 {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+.tekst2 {grid-area: b;}
+.tekst2 {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+
+.container2 {
+  display: grid;
+  grid-template-areas: 'a' 'b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+/*Stephanie slut*/
+
 /*forestillinger slut*/
 @media only screen and (max-width: 600px) {
   #desktop-menu-container{
-    display: flex;
+    display: none;
     flex-direction: column;
   }
+
+  #burger{
+    display: block;
+    cursor: pointer;
+  }
+
   #mlogo{
     margin-bottom: 5px;
     max-width:200px;
