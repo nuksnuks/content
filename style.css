@@ -53,12 +53,8 @@ h3, h4{
 }
 #hero{
   position: relative;
-<<<<<<< HEAD
-  text-align: left;
-=======
   text-align: center;
->>>>>>> ea0f72fabb243f2021124a1a3d25010ff8b88e24
-  color: tomato;
+  color: purple;
   max-width: 100vw;
   height: auto;
 }
@@ -78,10 +74,10 @@ h3, h4{
 }
 #overskrift1{
   position: absolute;
-
+  text-align: left;
   top: 10px;
-  left: 65vw;
-  font-size: 30px;
+  left: 45vw;
+  font-size: 60px;
 }
 .hero-container{
   position: absolute;
