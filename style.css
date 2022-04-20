@@ -392,7 +392,6 @@ color: white;
   outline-style: solid;
   }
 
-<<<<<<< Updated upstream
   .grid1{grid-area: a;}
   .grid2{grid-area: b;}
   .grid3{grid-area: c;}
@@ -400,7 +399,6 @@ color: white;
   .grid5{grid-area: e;}
   .grid6{grid-area: f;}
 
-=======
 #tekstfelt{
 text-align: left;
 background-color: #6894B2;
@@ -415,7 +413,6 @@ padding:10px;
   #grid5{grid-area: e;}
   #grid6{grid-area: f;}
   
->>>>>>> Stashed changes
   .gridfestspiller{
   display:grid;
   grid-template-areas:
@@ -429,8 +426,6 @@ height:275px;
 margin:10px;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
 @media(max-width:768px){
 .hamburger{
   display: block;
@@ -471,13 +466,8 @@ margin:10px;
 }
 
 @media only screen and (max-width: 750px) {
-=======
 
-
-=======
->>>>>>> Stashed changes
 @media only screen and (max-width: 600px) {
->>>>>>> 8e74728fccbc169ca75949e405da68a2654ebf08
   #desktop-menu-container{
     display: none;
     flex-direction: column;
@@ -590,7 +580,6 @@ margin:10px;
   }  
 }
 
-<<<<<<< HEAD
 /*Stephanie*/
 
 .h1 {grid-area: a;
@@ -637,8 +626,7 @@ margin:10px;
 }
 
 /*Stephanie slut*/
-=======
->>>>>>> 8e74728fccbc169ca75949e405da68a2654ebf08
+
 
 
 /* TANIA */
@@ -700,4 +688,4 @@ margin:10px;
   #more {
     display: none;
   }
-  
+}
