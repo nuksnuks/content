@@ -243,9 +243,9 @@ footer{
 
 /*Stephanie*/
 
-.h1 {grid-area: a;
+.h1 {grid-area: 'a';
 }
-.info {grid-area: b;}
+.info {grid-area: 'b';}
 .info {
   background-color: #7D746E;
   padding: 30px;
@@ -259,25 +259,25 @@ footer{
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 150px;
+}
 
-}
-.tekst1 {grid-area: a;}
-.tekst1 {
-  background-color: #7D746E;
+.h1 {
+  grid-area: 'a';
   padding: 30px;
-  color: #fff;
+  color: black;
 }
-.tekst2 {grid-area: b;}
-.tekst2 {
-  background-color: #7D746E;
+
+.info {
+  grid-area: 'b';
+  background-color: black;
   padding: 30px;
   color: #fff;
 }
 
 .container2 {
   display: grid;
-  grid-template-areas: 'a' 'b';
+  grid-template-areas: 'a''b';
   gap: 10px 10px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -730,4 +730,3 @@ margin:10px;
   #more {
     display: none;
   }
-
