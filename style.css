@@ -351,6 +351,8 @@ footer{
   position: relative;
   border-radius: 6px;
 }
+
+/*ALEX*/
 /* bliv festspiller*/
 #festspiller {
   width: 100vw;
@@ -361,6 +363,7 @@ footer{
   color:black;
   font-size: 30px;
 }
+
 #festspillertekst{
 font-size: 20px;
 color:black;
@@ -376,7 +379,7 @@ padding:20px;
 
 #tilmeld{
 text-align: center;
-width:100%;
+width:50%;
 background-color: #6894B2;
 color: white;
 }
@@ -389,6 +392,7 @@ color: white;
   outline-style: solid;
   }
 
+<<<<<<< Updated upstream
   .grid1{grid-area: a;}
   .grid2{grid-area: b;}
   .grid3{grid-area: c;}
@@ -396,6 +400,22 @@ color: white;
   .grid5{grid-area: e;}
   .grid6{grid-area: f;}
 
+=======
+#tekstfelt{
+text-align: left;
+background-color: #6894B2;
+color: white;
+padding:10px;
+}
+
+  #grid1{grid-area: a;}
+  #grid2{grid-area: b;}
+  #grid3{grid-area: c;}
+  #grid4{grid-area: d;}
+  #grid5{grid-area: e;}
+  #grid6{grid-area: f;}
+  
+>>>>>>> Stashed changes
   .gridfestspiller{
   display:grid;
   grid-template-areas:
@@ -403,12 +423,13 @@ color: white;
    'd e f';
   }
 
-#billede1{
+.grid{
 width: 450px;
 height:275px;
 margin:10px;
 }
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 @media(max-width:768px){
 .hamburger{
@@ -453,6 +474,8 @@ margin:10px;
 =======
 
 
+=======
+>>>>>>> Stashed changes
 @media only screen and (max-width: 600px) {
 >>>>>>> 8e74728fccbc169ca75949e405da68a2654ebf08
   #desktop-menu-container{
@@ -497,6 +520,74 @@ margin:10px;
     margin: 0;
     padding: 10px;
   }
+
+  #festspiller {
+    width: 100vw;
+    margin-top: 0px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    color:black;
+    font-size: 30px;
+  }
+  #festspillertekst{
+  font-size: 20px;
+  color:black;
+  margin-top: 30px;
+  }
+  
+  #tilmeldboks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:20px;
+  }
+  
+  #tilmeld{
+  text-align: center;
+  width:50%;
+  background-color: #6894B2;
+  color: white;
+  }
+  
+  #festspillercontainer{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    outline-style: solid;
+    }
+  
+  #tekstfelt{
+  text-align: left;
+  background-color: #6894B2;
+  color: white;
+  padding:10px;
+  }
+  
+    #grid1{grid-area: a;}
+    #grid2{grid-area: b;}
+    #grid3{grid-area: c;}
+    #grid4{grid-area: d;}
+    #grid5{grid-area: e;}
+    #grid6{grid-area: f;}
+    
+    .gridfestspiller{
+    display:grid;
+    grid-template-areas:
+     'a' 
+     'b' 
+     'c'
+     'd' 
+     'e'
+     'f'   
+    }
+  
+  .grid{
+  width: 450px;
+  height:275px;
+  margin:10px;
+  }  
 }
 
 <<<<<<< HEAD
