@@ -27,7 +27,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover{
-  color: red;
+  color: #6894B2;
   cursor: pointer;
 }
 h3, h4{
@@ -65,7 +65,7 @@ h3, h4{
 #banner{
   width: 100vw;
   margin-top: 0px;
-  height: auto;
+  height: 400px;
   object-fit: cover;
   object-position: center;
 }
@@ -73,48 +73,15 @@ h3, h4{
   position: absolute;
   text-align: left;
   top: 30px;
-  left: 20vw;
-  font-size: 30px;
+  left: 45vw;
+  font-size: 45px;
   color: white;
 }
-.nav-links {
-  display:flex;
-  max-height:50%;
-}
-
-.nav-links ul{
-  list-style: none;
-  font-size: 20px;
-}
-
-.nav-links a{
-  text-decoration: none;
-  font-weight:bold;
-  font-size: 15px;
-  color: white;
-  text-align:right;
-  font-weight: bold;
-  line-height: 3;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color:black;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-#burger{
-  display: none;
-  cursor: pointer;
-}
-
 .hero-container{
   position: absolute;
-  top: 45%;
-  left: 70%;
   display: flex;
+  top: 50%;
+  left: 70%;
 }
 .heroknap{
   border-style: none;
@@ -128,6 +95,68 @@ h3, h4{
   padding-right: 10px;
   cursor: pointer;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+   background-color: #ffffff;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+    color: #2D2D33;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 110px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+  font-size: 2rem;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: #6894B2;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    background-color:#2d2d33;
+}
+
 .flex-container{
   display:flex;
   padding: 30px;
@@ -412,7 +441,7 @@ padding:10px;
   #grid4{grid-area: d;}
   #grid5{grid-area: e;}
   #grid6{grid-area: f;}
-  
+
   .gridfestspiller{
   display:grid;
   grid-template-areas:
@@ -427,52 +456,65 @@ margin:10px;
 }
 
 @media(max-width:768px){
-.hamburger{
-  display: block;
-}
+  .hamburger{
+      display: block;
+  }
 
-.hamburger.active .bar:nth-child(2){
-  opacity: 0;
-}
-.hamburger.active .bar:nth-child(1){
-  transform: translateY(8px) rotate(45deg);
-}
-.hamburger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg);
+  .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+  .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
 }
 
 .nav-menu{
-  display: none;
-  position: fixed;
-  left: 0;
-  top:70px;
-  gap: 0;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  transition: 0.3s;
+    position:fixed;
+    gap: 20px;
+    top: -60%;
+    left: 0;
+    padding-bottom: 35px;
+    flex-direction: column;
+    background-color: #ECECEC;
+    width: 100%;
+    text-align: center;
+    transition: 0.6s ease-in;
+    z-index: 10;
 }
 
 .nav-item{
-  margin: 16px 0;
+    margin: 16px 0;
 }
 
 .nav-menu.active{
-  top: 70px;
-  background-color: red;
+  top: 100px;
+  background-color: #ffffff;
   z-index: 10;
   display: block;
 }
+
+#banner{
+  width: 100vw;
+  margin-top: 0px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
 }
+#overskrift1{
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  left: 40vw;
+  font-size: 35px;
+  color: white;
+   }
 
-@media only screen and (max-width: 750px) {
-
-@media only screen and (max-width: 600px) {
-  #desktop-menu-container{
+ #desktop-menu-container{
     display: none;
     flex-direction: column;
-  }
-
+ }
   #burger{
     display: block;
     cursor: pointer;
@@ -525,21 +567,21 @@ margin:10px;
   color:black;
   margin-top: 30px;
   }
-  
+
   #tilmeldboks{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding:20px;
   }
-  
+
   #tilmeld{
   text-align: center;
   width:50%;
   background-color: #6894B2;
   color: white;
   }
-  
+
   #festspillercontainer{
     text-align: center;
     margin-left: 50%;
@@ -547,37 +589,37 @@ margin:10px;
     margin-top: 20px;
     outline-style: solid;
     }
-  
+
   #tekstfelt{
   text-align: left;
   background-color: #6894B2;
   color: white;
   padding:10px;
   }
-  
+
     #grid1{grid-area: a;}
     #grid2{grid-area: b;}
     #grid3{grid-area: c;}
     #grid4{grid-area: d;}
     #grid5{grid-area: e;}
     #grid6{grid-area: f;}
-    
+
     .gridfestspiller{
     display:grid;
     grid-template-areas:
-     'a' 
-     'b' 
+     'a'
+     'b'
      'c'
-     'd' 
+     'd'
      'e'
-     'f'   
+     'f'
     }
-  
+
   .grid{
   width: 450px;
   height:275px;
   margin:10px;
-  }  
+  }
 }
 
 /*Stephanie*/
@@ -684,8 +726,8 @@ margin:10px;
 
 
 
-  /* Læs mere tekst boks (frivillige) */ 
+  /* Læs mere tekst boks (frivillige) */
   #more {
     display: none;
   }
-}
+
