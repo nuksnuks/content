@@ -77,6 +77,7 @@ h3, h4{
   font-size: 45px;
   color: white;
 }
+<<<<<<< HEAD
 .hero-container{
   position: absolute;
   display: flex;
@@ -104,12 +105,19 @@ h3, h4{
 
 header{
    background-color: #ffffff;
+=======
+.nav-links {
+  display:flex;
+  max-height:50%;
+>>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
 }
 
-li{
+.nav-links ul{
   list-style: none;
+  font-size: 20px;
 }
 
+<<<<<<< HEAD
 a{
     color: #2D2D33;
     text-decoration: none;
@@ -157,6 +165,49 @@ a{
     background-color:#2d2d33;
 }
 
+=======
+.nav-links a{
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 15px;
+  color: white;
+  text-align:right;
+  font-weight: bold;
+  line-height: 3;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color:black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+#burger{
+  display: none;
+  cursor: pointer;
+}
+
+.hero-container{
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  display: flex;
+}
+.heroknap{
+  border-style: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+>>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
 .flex-container{
   display:flex;
   padding: 30px;
@@ -176,6 +227,12 @@ a{
 #billede2{
   max-width:540px;
   margin-left: 33%;
+}
+.omosbillede{
+  width: 43vw;
+  height: 450px;
+  object-fit: cover;
+  object-position: top;
 }
 #tilmelding-container{
   margin:0;
@@ -235,12 +292,61 @@ footer{
   object-fit: cover;
 }
 
+<<<<<<< HEAD
+=======
+/*Stephanie*/
+
+.h1 {grid-area: a;
+}
+.info {grid-area: b;}
+.info {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+
+.container1 {
+  display: grid;
+  grid-template-areas: 'a b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.tekst1 {grid-area: a;}
+.tekst1 {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+.tekst2 {grid-area: b;}
+.tekst2 {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+
+.container2 {
+  display: grid;
+  grid-template-areas: 'a' 'b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+/*Stephanie slut*/
+>>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
 
 /*forestillinger slut*/
 /*om os*/
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 100vw;
   margin: 0 auto;
 }
 
@@ -249,10 +355,10 @@ footer{
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: red;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 0;
   margin-left: -3px;
 }
 
@@ -260,8 +366,8 @@ footer{
 .container {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
-  width: 50%;
+  background-color: white;
+  width: 50vw;
 }
 
 /* The circles on the timeline */
@@ -285,7 +391,7 @@ footer{
 
 /* Place the container to the right */
 .right {
-  left: 50%;
+  left: 35px;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -324,10 +430,12 @@ footer{
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: blue;
   position: relative;
   border-radius: 6px;
 }
+
+/*ALEX*/
 /* bliv festspiller*/
 #festspiller {
   width: 100vw;
@@ -338,6 +446,7 @@ footer{
   color:black;
   font-size: 30px;
 }
+
 #festspillertekst{
 font-size: 20px;
 color:black;
@@ -353,7 +462,7 @@ padding:20px;
 
 #tilmeld{
 text-align: center;
-width:100%;
+width:50%;
 background-color: #6894B2;
 color: white;
 }
@@ -373,6 +482,20 @@ color: white;
   .grid5{grid-area: e;}
   .grid6{grid-area: f;}
 
+#tekstfelt{
+text-align: left;
+background-color: #6894B2;
+color: white;
+padding:10px;
+}
+
+  #grid1{grid-area: a;}
+  #grid2{grid-area: b;}
+  #grid3{grid-area: c;}
+  #grid4{grid-area: d;}
+  #grid5{grid-area: e;}
+  #grid6{grid-area: f;}
+  
   .gridfestspiller{
   display:grid;
   grid-template-areas:
@@ -380,7 +503,7 @@ color: white;
    'd e f';
   }
 
-#billede1{
+.grid{
 width: 450px;
 height:275px;
 margin:10px;
@@ -426,6 +549,7 @@ margin:10px;
   display: block;
 }
 
+<<<<<<< HEAD
 #banner{
   width: 100vw;
   margin-top: 0px;
@@ -440,9 +564,19 @@ margin:10px;
   left: 40vw;
   font-size: 35px;
   color: white;
+=======
+@media only screen and (max-width: 750px) {
+
+@media only screen and (max-width: 600px) {
+>>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
   #desktop-menu-container{
     display: none;
     flex-direction: column;
+  }
+
+  #burger{
+    display: block;
+    cursor: pointer;
   }
 
   #mlogo{
@@ -477,6 +611,74 @@ margin:10px;
     margin: 0;
     padding: 10px;
   }
+
+  #festspiller {
+    width: 100vw;
+    margin-top: 0px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    color:black;
+    font-size: 30px;
+  }
+  #festspillertekst{
+  font-size: 20px;
+  color:black;
+  margin-top: 30px;
+  }
+  
+  #tilmeldboks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:20px;
+  }
+  
+  #tilmeld{
+  text-align: center;
+  width:50%;
+  background-color: #6894B2;
+  color: white;
+  }
+  
+  #festspillercontainer{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    outline-style: solid;
+    }
+  
+  #tekstfelt{
+  text-align: left;
+  background-color: #6894B2;
+  color: white;
+  padding:10px;
+  }
+  
+    #grid1{grid-area: a;}
+    #grid2{grid-area: b;}
+    #grid3{grid-area: c;}
+    #grid4{grid-area: d;}
+    #grid5{grid-area: e;}
+    #grid6{grid-area: f;}
+    
+    .gridfestspiller{
+    display:grid;
+    grid-template-areas:
+     'a' 
+     'b' 
+     'c'
+     'd' 
+     'e'
+     'f'   
+    }
+  
+  .grid{
+  width: 450px;
+  height:275px;
+  margin:10px;
+  }  
 }
 
 /*Stephanie*/
@@ -525,6 +727,7 @@ margin:10px;
 }
 
 /*Stephanie slut*/
+
 
 
 /* TANIA */
@@ -579,3 +782,11 @@ margin:10px;
   to {opacity: 1}
 }
   /* Galleri slut */
+
+
+
+  /* Læs mere tekst boks (frivillige) */ 
+  #more {
+    display: none;
+  }
+}
