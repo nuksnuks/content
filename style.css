@@ -77,7 +77,6 @@ h3, h4{
   font-size: 45px;
   color: white;
 }
-<<<<<<< HEAD
 .hero-container{
   position: absolute;
   display: flex;
@@ -105,11 +104,6 @@ h3, h4{
 
 header{
    background-color: #ffffff;
-=======
-.nav-links {
-  display:flex;
-  max-height:50%;
->>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
 }
 
 .nav-links ul{
@@ -117,7 +111,6 @@ header{
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 a{
     color: #2D2D33;
     text-decoration: none;
@@ -165,49 +158,6 @@ a{
     background-color:#2d2d33;
 }
 
-=======
-.nav-links a{
-  text-decoration: none;
-  font-weight:bold;
-  font-size: 15px;
-  color: white;
-  text-align:right;
-  font-weight: bold;
-  line-height: 3;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color:black;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-#burger{
-  display: none;
-  cursor: pointer;
-}
-
-.hero-container{
-  position: absolute;
-  top: 45%;
-  left: 70%;
-  display: flex;
-}
-.heroknap{
-  border-style: none;
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-  margin-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  cursor: pointer;
-}
->>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
 .flex-container{
   display:flex;
   padding: 30px;
@@ -292,8 +242,6 @@ footer{
   object-fit: cover;
 }
 
-<<<<<<< HEAD
-=======
 /*Stephanie*/
 
 .h1 {grid-area: a;
@@ -340,7 +288,6 @@ footer{
 }
 
 /*Stephanie slut*/
->>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
 
 /*forestillinger slut*/
 /*om os*/
@@ -495,7 +442,7 @@ padding:10px;
   #grid4{grid-area: d;}
   #grid5{grid-area: e;}
   #grid6{grid-area: f;}
-  
+
   .gridfestspiller{
   display:grid;
   grid-template-areas:
@@ -549,7 +496,6 @@ margin:10px;
   display: block;
 }
 
-<<<<<<< HEAD
 #banner{
   width: 100vw;
   margin-top: 0px;
@@ -564,11 +510,6 @@ margin:10px;
   left: 40vw;
   font-size: 35px;
   color: white;
-=======
-@media only screen and (max-width: 750px) {
-
-@media only screen and (max-width: 600px) {
->>>>>>> 00f2fb06f81612bb8275fd16fe453a46403bcebb
   #desktop-menu-container{
     display: none;
     flex-direction: column;
@@ -626,21 +567,21 @@ margin:10px;
   color:black;
   margin-top: 30px;
   }
-  
+
   #tilmeldboks{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding:20px;
   }
-  
+
   #tilmeld{
   text-align: center;
   width:50%;
   background-color: #6894B2;
   color: white;
   }
-  
+
   #festspillercontainer{
     text-align: center;
     margin-left: 50%;
@@ -648,37 +589,37 @@ margin:10px;
     margin-top: 20px;
     outline-style: solid;
     }
-  
+
   #tekstfelt{
   text-align: left;
   background-color: #6894B2;
   color: white;
   padding:10px;
   }
-  
+
     #grid1{grid-area: a;}
     #grid2{grid-area: b;}
     #grid3{grid-area: c;}
     #grid4{grid-area: d;}
     #grid5{grid-area: e;}
     #grid6{grid-area: f;}
-    
+
     .gridfestspiller{
     display:grid;
     grid-template-areas:
-     'a' 
-     'b' 
+     'a'
+     'b'
      'c'
-     'd' 
+     'd'
      'e'
-     'f'   
+     'f'
     }
-  
+
   .grid{
   width: 450px;
   height:275px;
   margin:10px;
-  }  
+  }
 }
 
 /*Stephanie*/
@@ -785,7 +726,7 @@ margin:10px;
 
 
 
-  /* Læs mere tekst boks (frivillige) */ 
+  /* Læs mere tekst boks (frivillige) */
   #more {
     display: none;
   }
