@@ -389,11 +389,11 @@ color: white;
   .grid4{grid-area: d;}
   .grid5{grid-area: e;}
   .grid6{grid-area: f;}
-  
+
   .gridfestspiller{
   display:grid;
   grid-template-areas:
-   'a b c' 
+   'a b c'
    'd e f';
   }
 
@@ -403,9 +403,52 @@ height:275px;
 margin:10px;
 }
 
+<<<<<<< HEAD
+@media(max-width:768px){
+.hamburger{
+  display: block;
+}
+
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu{
+  display: none;
+  position: fixed;
+  left: 0;
+  top:70px;
+  gap: 0;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav-item{
+  margin: 16px 0;
+}
+
+.nav-menu.active{
+  top: 70px;
+  background-color: red;
+  z-index: 10;
+  display: block;
+}
+}
+
+@media only screen and (max-width: 750px) {
+=======
 
 
 @media only screen and (max-width: 600px) {
+>>>>>>> 8e74728fccbc169ca75949e405da68a2654ebf08
   #desktop-menu-container{
     display: none;
     flex-direction: column;
@@ -450,6 +493,55 @@ margin:10px;
   }
 }
 
+<<<<<<< HEAD
+/*Stephanie*/
+
+.h1 {grid-area: a;
+}
+.info {grid-area: b;}
+.info {
+  background-color: #6894B2;
+  padding: 30px;
+  color: #fff;
+}
+
+.container1 {
+  display: grid;
+  grid-template-areas: 'a' 'b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.tekst1 {grid-area: a;}
+.tekst1 {
+  background-color: #6894B2;
+  padding: 30px;
+  color: #fff;
+}
+.tekst2 {grid-area: b;}
+.tekst2 {
+  background-color: #6894B2;
+  padding: 30px;
+  color: #fff;
+}
+
+.container2 {
+  display: grid;
+  grid-template-areas: 'a' 'b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+/*Stephanie slut*/
+=======
+>>>>>>> 8e74728fccbc169ca75949e405da68a2654ebf08
 
 
 /* TANIA */
