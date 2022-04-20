@@ -77,65 +77,37 @@ h3, h4{
   font-size: 30px;
   color: white;
 }
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing:border-box;
+.nav-links {
+  display:flex;
+  max-height:50%;
 }
 
-header{
-  background-color: #ffffff
-}
-
-li{
+.nav-links ul{
   list-style: none;
+  font-size: 20px;
 }
 
-a{
-  color: #000000
+.nav-links a{
   text-decoration: none;
+  font-weight:bold;
+  font-size: 15px;
+  color: white;
+  text-align:right;
+  font-weight: bold;
+  line-height: 3;
 }
 
-.navbar{
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-}
-
-.nav-menu{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
-
-.nav-branding{
-  font-size: 2rem;
-}
-
-.nav-link{
-  transition: 0.7s ease;
-}
-
-.nav-link:hover{
-  color: #red;
-}
-
-.hamburger{
-  display: none;
-  cursor: pointer;
-}
-
-.bar{
-  display: block;
+.burger div {
   width: 25px;
   height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color:black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+#burger{
+  display: none;
+  cursor: pointer;
 }
 
 .hero-container{
@@ -233,6 +205,53 @@ footer{
   height:130px;
   object-fit: cover;
 }
+
+/*Stephanie*/
+
+.h1 {grid-area: a;
+}
+.info {grid-area: b;}
+.info {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+
+.container1 {
+  display: grid;
+  grid-template-areas: 'a b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.tekst1 {grid-area: a;}
+.tekst1 {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+.tekst2 {grid-area: b;}
+.tekst2 {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+
+.container2 {
+  display: grid;
+  grid-template-areas: 'a' 'b';
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+/*Stephanie slut*/
 
 /*forestillinger slut*/
 /*om os*/
@@ -384,52 +403,17 @@ height:275px;
 margin:10px;
 }
 
-@media(max-width:768px){
-.hamburger{
-  display: block;
-}
 
-.hamburger.active .bar:nth-child(2){
-  opacity: 0;
-}
-.hamburger.active .bar:nth-child(1){
-  transform: translateY(8px) rotate(45deg);
-}
-.hamburger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.nav-menu{
-  position: fixed;
-  left: 0;
-  top:70px;
-  gap: 0;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.nav-item{
-  margin: 16px 0;
-}
-
-.nav-menu.active{
-  top: 70px;
-  background-color: red;
-  z-index: 10;
-}
-}
-
-<<<<<<< HEAD
-@media only screen and (max-width: 750px) {
-=======
 
 @media only screen and (max-width: 600px) {
->>>>>>> 183ce240c284d2330e848d943addad42efb19d0b
   #desktop-menu-container{
     display: none;
     flex-direction: column;
+  }
+
+  #burger{
+    display: block;
+    cursor: pointer;
   }
 
   #mlogo{
@@ -466,52 +450,6 @@ margin:10px;
   }
 }
 
-/*Stephanie*/
-
-.h1 {grid-area: a;
-}
-.info {grid-area: b;}
-.info {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-
-.container1 {
-  display: grid;
-  grid-template-areas: 'a b';
-  gap: 10px 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-.tekst1 {grid-area: a;}
-.tekst1 {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-.tekst2 {grid-area: b;}
-.tekst2 {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-
-.container2 {
-  display: grid;
-  grid-template-areas: 'a' 'b';
-  gap: 10px 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-
-/*Stephanie slut*/
 
 
 /* TANIA */
