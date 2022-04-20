@@ -370,11 +370,11 @@ color: white;
   .grid4{grid-area: d;}
   .grid5{grid-area: e;}
   .grid6{grid-area: f;}
-  
+
   .gridfestspiller{
   display:grid;
   grid-template-areas:
-   'a b c' 
+   'a b c'
    'd e f';
   }
 
@@ -400,6 +400,7 @@ margin:10px;
 }
 
 .nav-menu{
+  display: none;
   position: fixed;
   left: 0;
   top:70px;
@@ -418,15 +419,11 @@ margin:10px;
   top: 70px;
   background-color: red;
   z-index: 10;
+  display: block;
 }
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 750px) {
-=======
-
-@media only screen and (max-width: 600px) {
->>>>>>> 183ce240c284d2330e848d943addad42efb19d0b
   #desktop-menu-container{
     display: none;
     flex-direction: column;
@@ -472,30 +469,30 @@ margin:10px;
 }
 .info {grid-area: b;}
 .info {
-  background-color: #7D746E;
+  background-color: #6894B2;
   padding: 30px;
   color: #fff;
 }
 
 .container1 {
   display: grid;
-  grid-template-areas: 'a b';
+  grid-template-areas: 'a' 'b';
   gap: 10px 10px;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 .tekst1 {grid-area: a;}
 .tekst1 {
-  background-color: #7D746E;
+  background-color: #6894B2;
   padding: 30px;
   color: #fff;
 }
 .tekst2 {grid-area: b;}
 .tekst2 {
-  background-color: #7D746E;
+  background-color: #6894B2;
   padding: 30px;
   color: #fff;
 }
@@ -506,8 +503,8 @@ margin:10px;
   gap: 10px 10px;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 
