@@ -467,6 +467,8 @@ margin-top:30px;
 font-size: 20px;
 }
 
+/* bliv festspiller SLUT*/
+
 @media(max-width:768px){
   .hamburger{
       display: block;
@@ -630,10 +632,17 @@ font-size: 20px;
     }
 
   .grid{
-  width: 450px;
+  width: 100vw;
   height:275px;
   margin:10px;
+  margin-left:0;
+  margin-right:0;
   }
+
+.h1{
+text-align: center;
+
+}
 }
 
 /*Stephanie*/
