@@ -735,9 +735,12 @@ margin:10px;
 }
 /* GALLERI SLUT */
 
-
+/ 
 /* LÆS MERE TXT BOX (frivillige) */ 
   #more {
     display: none;
+  }
+  #dots {
+
   }
 /* LÆS MERE TXT BOX SLUT */
