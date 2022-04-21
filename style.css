@@ -178,8 +178,8 @@ a{
   margin-left: 33%;
 }
 .omosbillede{
-  width: 43vw;
-  height: 450px;
+  width: 100%;
+  height: 400px;
   object-fit: cover;
   object-position: top;
 }
@@ -686,7 +686,7 @@ font-size: 20px;
 
 
 /* TANIA */
-/* FRIVILLIGE */ 
+/* FRIVILLIGE */
 .container__frivillige{
   display: flex;
   flex-direction: row;
@@ -747,7 +747,7 @@ font-size: 20px;
 /* GALLERI SLUT */
 
 
-/* LÆS MERE TXT BOX (frivillige) */ 
+/* LÆS MERE TXT BOX (frivillige) */
   #more {
     display: none;
   }
