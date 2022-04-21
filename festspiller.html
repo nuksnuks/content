@@ -33,34 +33,17 @@
     <div id="tekstfelt">
       <h1>Hvad søger vi i dig?</h1>
       <p>Vi søger passioneret børn og unge, som elsker at udføre teater. Vi ser helst, at du er mellem 6-17 år. Audition foregår i starten af året, hvorefter man i februar får afvide om man er optaget. I marts måned bliver der så afholdt rolleuddeling, hvor man får afvide hvilken rolle man har fået i forestillingen.</p>
-    </div>
-    <div id="tilmeld">
-      <div id="h-tag">
-      </div>
-      <div class="login">
-      <table cellspacing="2" cellpadding="8">
-      <tr>
-      <td>*Navn:</td>
-      <td><input type="text" placeholder="Navn..." id="t1" class="tb" /></td>
-      </tr>
-      <tr>
-      <td>*Alder:</td>
-      <td><input type="text" placeholder="Alder..." id="t2" class="tb" /></td>
-      </tr>
-      <tr>
-      <td>*Rolle:</td>
-      <td><input type="text" placeholder="Rolle..." id="t3" class="tb" /></td>
-      </tr>
-      <tr>
-      <td>Andet:</td>
-      <td><input type="text" placeholder="Andet..." id="t4" class="tb" /></td>
-      </tr>
-      <td></td>
-      <td>
-      <input type="submit" value="Tilmeld" class="btn" onclick="registration()"/></td>
-      </tr>
-      </table>
-      <script src="scripts/tilmeld.js" charset="utf-8" defer></script>
+    <div class=form>
+    <form name="myForm" onsubmit="return validateForm()">
+      <p>*Navn:<input type="text" name="name" class="field-long"/><span class="error" id="errorname"></span></p>
+      <p>*Alder:<input type="text" name="alder" class="field-long"/><span class="error" id="erroralder"></span></p>
+      <p>*Rolle:<input type="text" name="rolle" class="field-long"/><span class="error" id="errorrolle"></span></p>
+      <p>Andet:<input type="text" name="andet" class="field-long"/><span></span></p>
+
+      <p><input type="submit" value="Send"></p>
+   </form>
+   </div>
+      <script src="scripts/tilmeld.js"></script>
       </div>
       </div>    
 </div>

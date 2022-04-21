@@ -455,6 +455,18 @@ height:275px;
 margin:10px;
 }
 
+.error{
+  color: #cf2932;
+  background-color: #6894B2;
+  font-size:15px;
+}
+
+.form{
+text-align: center;
+margin-top:30px;
+font-size: 20px;
+}
+
 @media(max-width:768px){
   .hamburger{
       display: block;
@@ -510,7 +522,6 @@ margin:10px;
   font-size: 35px;
   color: white;
    }
-
 
 
 @media only screen and (max-width: 750px) {
@@ -740,7 +751,5 @@ margin:10px;
   #more {
     display: none;
   }
-<<<<<<< HEAD
-=======
 /* LÆS MERE TXT BOX SLUT */
->>>>>>> 66a7682f667e5af035791f966d1d5015538c54f0
+}
