@@ -149,8 +149,8 @@ h3, h4{
   margin-left: 33%;
 }
 .omosbillede{
-  width: 43vw;
-  height: 450px;
+  width: 100%;
+  height: 400px;
   object-fit: cover;
   object-position: top;
 }
@@ -605,8 +605,7 @@ margin:10px;
 
 
 
-  /* Læs mere tekst boks (frivillige) */ 
+  /* Læs mere tekst boks (frivillige) */
   #more {
     display: none;
   }
-  
