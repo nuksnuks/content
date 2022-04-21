@@ -29,9 +29,16 @@ function validateForm()
 
             
          }
-
+/* Javascript loop*/
          var s = "";
 for(var i = 1; i < 11; i += 1) {
   s += i + " ";
 }
 console.log(s);
+
+/*Javascript array*/
+let stringArray = ["David", "Alex", "Tania", "Stephanie"];  
+console.log(stringArray);  
+for (let str of stringArray) {  
+    console.log(str);  
+} 
