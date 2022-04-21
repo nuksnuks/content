@@ -675,7 +675,7 @@ margin:10px;
 
 
 /* TANIA */
-/* FRIVILLIGE */ 
+/* FRIVILLIGE */
 .container__frivillige{
   display: flex;
   flex-direction: row;
@@ -736,18 +736,8 @@ margin:10px;
 /* GALLERI SLUT */
 
 
-<<<<<<< HEAD
-  /* Læs mere tekst boks (frivillige) */
+/* LÆS MERE TXT BOX (frivillige) */
   #more {
     display: none;
   }
-=======
-/* LÆS MERE TXT BOX (frivillige) */ 
-  #more {
-    display: none;
-  }
-<<<<<<< HEAD
-=======
 /* LÆS MERE TXT BOX SLUT */
->>>>>>> 66a7682f667e5af035791f966d1d5015538c54f0
->>>>>>> da4d1ef3e3695f701f52b4b4d99563fc8a72b4af
