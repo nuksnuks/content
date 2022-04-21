@@ -381,6 +381,97 @@ footer{
   border-radius: 6px;
 }
 
+
+/* TANIA - FRIVILLIGE - text container */ 
+.container__frivillige{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.item__frivillige{
+  padding: 25px;
+  background-color: #6894B2;
+  width: auto;
+  margin: 10px;;
+}
+
+.overskrift__frivillige{
+  justify-content: center;
+}
+
+.tekst__frivillige{
+  margin-right: 31px;
+  margin-left: 31px;
+}
+
+.kontakt__frivillige{
+  background-color: #6894B2;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.kontakt__frivillge-tekst{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* TANIA - FRIVILLIGE - GALLERI */
+* {box-sizing:border-box}
+
+/* Galleri billeder */
+.galleri-billeder{
+  max-height: 300px;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  min-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: transparent;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* GALLERI SLUT */
+/* LÆS MERE TXT BOX (frivillige) */ 
+  #more {
+    display: none;
+  }
+/* LÆS MERE TXT BOX SLUT */
+
+
 /*ALEX*/
 /* bliv festspiller*/
 #festspiller {
@@ -465,6 +556,7 @@ margin:10px;
 text-align: center;
 margin-top:30px;
 font-size: 20px;
+background-color: #6894B2;
 }
 
 /* bliv festspiller SLUT*/
@@ -691,74 +783,3 @@ text-align: center;
 }
 
 /*Stephanie slut*/
-
-
-
-/* TANIA */
-/* FRIVILLIGE */
-.container__frivillige{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.item__frivillige{
-  padding: 25px;
-}
-
-/* GALLERI */
-* {box-sizing:border-box}
-
-/* Galleri billeder */
-.galleri-billeder{
-  max-height: 300px;
-  width: 100vw;
-  object-fit: cover;
-  object-position: center;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  min-width: 500px;
-  position: relative;
-  margin: auto;
-}
-
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: transparent;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-/* GALLERI SLUT */
-
-
-/* LÆS MERE TXT BOX (frivillige) */
-  #more {
-    display: none;
-  }
-/* LÆS MERE TXT BOX SLUT */
-}
