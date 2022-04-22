@@ -546,6 +546,7 @@ padding:10px;
   grid-template-areas:
    'a b c'
    'd e f';
+   margin-bottom: 20px;
   }
 
 .grid{
