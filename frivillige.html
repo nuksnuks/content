@@ -5,27 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/lkb6diw.css">
-    <title></title>
+    <title>Frivillige</title>
+    <script src="scripts/burger_menu.js" defer charset="utf-8"></script>
   </head>
 
   <body>
     <!--Menu -->  
-    <div id="desktop-menu-container">
-      <a href="index0.html"><img src="images/menulogo.png" id="mlogo" alt="menulogo"></a>
+    <nav class="navbar">
 
-      <nav id="menu">
-        <a href="index0.html" class="menupunkt" id="menupunkt6">Forside</a>
-        <a href="forestilling.html" class="menupunkt" id="menupunkt1">Forestillinger</a>
-        <a href="om_os.html" class="menupunkt" id="menupunkt2">Om Os</a>
-        <a href="frivillige.html" class="menupunkt" id="menupunkt3">Frivillige</a>
-        <a href="festspiller.html" class="menupunkt" id="menupunkt4">Bliv festspiller</a>
-        <a href="billet.html" class="menupunkt" id="menupunkt5">Køb billet</a>
-      </nav>
+      <a href="index0.html" class="nav-branding"><img src="images/menulogo.png" id="mlogo" alt="menulogo"></a>
+
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="forestilling.html" class="nav-link">Forstilling</a>
+      </li>
+      <li class="nav-item">
+        <a href="om_os.html" class="nav-link">Om os</a>
+      </li>
+      <li class="nav-item">
+        <a href="frivillige.html" class="nav-link">Frivillige</a>
+      </li>
+      <li class="nav-item">
+        <a href="festspiller.html" class="nav-link">Bliv festspiller</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://nembillet.dk/search/text/folk%20og%20r%C3%B8vere" class="nav-link">Køb billet</a>
+      </li>
+    </ul>
+
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </div>
+  </nav>
 
       <link rel="stylesheet" href="style.css">
       <script src="js/galleri.js" defer></script>
       <script src="js/mere-txt.js" defer></script>
+      <script src="scripts/tilmeld.js" defer></script>
 
 
  <!--Automatisk Galleri -->      
@@ -33,30 +51,30 @@
 
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img class="galleri-billeder" src="images/advertise_img.png" alt="teater" style="width:100%">
+        <img class="galleri-billeder" src="images/advertise_img.png" alt="teater">
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img class="galleri-billeder" src="images/galleri-b.jpg" alt="teater" style="width:100%">
+        <img class="galleri-billeder" src="images/galleri-b.jpg" alt="teater">
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img class="galleri-billeder" src="images/c.jpg" alt="teater" style="width:100%">
+        <img class="galleri-billeder" src="images/c.jpg" alt="teater">
       </div>
     </div>
        <br>
 
 <!--Frivillige beskrivelse --> 
-    <div class="container__frivillige">
-      <h2 class="overskrift__frivillige">Har du lyst til at være frivillig</h2>
+    <div class="tekst__frivillige">
+      <h2 class="overskrift__frivillige">Har du lyst til at være frivillig</h2> 
         <p> For alle opgaverne gælder, at der ikke kræves særlige kvalifikationer. Du kan deltage i det omfang, du har tid og lyst. Der er altid noget at gøre, og du bliver altid mødt med et “dejligt, du kom”.
             Udover Festspillenes Venner lægger de unge spilleres forældre, søskende og bedsteforældre en kæmpe indsats i det frivillige arbejde.
             Der er intet kontingent til HCA Festspillenes Venner, men du kan melde dig ind i H.C. Andersen Festspillene og på den måde også få indflydelse på selve foreningsarbejdet. Som tak for din indsats kvitteres med mad og drikke under arbejdet samt et adgangskort til forestillingerne.
             Og så er der den anden del af lønnen. Den ud- betales, når du en eftermiddag i solskin sidder på skråningerne i Den Fynske Landsby og ser en flok skønne børn og unge spille teater for tusindvis af gæster, og du ved, at du er en del af det og med til at give dem alle minder for livet.
         </p>
-  </div>
+    </div>
 
 
 
@@ -102,20 +120,46 @@
         </span></p>
     <button onclick="myFunction()" id="myBtn">Læs mere</button>
   </div>
-
-<!-- Tilmeldingsbox --> 
-  <div class="item__fivillige" id="tilmeld">
-    <label for="navn">Fulde navn:</label><br>
-    <input type="text"><br>
-    <label for="alder">Alder:</label><br>
-    <input type="text"><br>
-    <label for="alder">Rolle:</label><br>
-    <input type="text"><br>
-    <label for="alder">Andet:</label><br>
-    <input type="text"><br><br>
-    <input type="submit" value="Indsend">
-  </div>
 </div>
 
+
+<!-- Kontakt informationer -->
+<div class="kontakt__frivillige">
+  <h2 class="kontakt__frivillge-tekst">Kontakt information</h2>
+  <p class="kontakt__frivillge-tekst">
+    Du kan kontakte nedenstående, for yderligere information: <br>
+    <br> 
+    <strong>Palle Svendsen</strong><br>
+    Tlf: 29 12 64 74 <br>
+    E-mail: palleogsanne@gmail.com <br>
+    <br>
+    <strong>Susanne Tønnes</strong><br>
+    Tlf: 21 49 88 33 <br>
+    E-mail: susanne@hcandersenfestspillene.dk
+    </p>
+</div>
+<footer>
+  <div class="footer-container">
+    <img src="images/footerlogo.png" id="flogo" alt="footerlogo">
+    <div class="footerelement">
+      <h3 class="footertext">Kontakt</h3>
+      <p class="footertext">
+      <b>Telefon:</b> +45 24 22 09 56<br>
+      <b>E-mail:</b> mail@hcandersenfestspillene.dk<br>
+      <b>Adresse:</b> Kanalvej 154C, 5000 Odense C<br>
+      </p>
+    </div>
+    <div class="footerelement">
+      <h3 class="footertext">Om os</h3>
+      <p>
+      </p>
+    </div>
+    <div class="footerelement">
+      <h3 class="footertext">Frivillig</h3>
+      <p>
+      </p>
+    </div>
+  </div>
+</footer>
   </body>
 </html>
