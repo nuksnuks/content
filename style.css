@@ -389,6 +389,7 @@ footer{
   justify-content: space-between;
   margin-right: 20px;
   margin-left: 20px;
+  color: white;
 }
 
 .item__frivillige{
@@ -408,9 +409,10 @@ footer{
 }
 
 .kontakt__frivillige{
-  background-color: #6894B2;
-  margin-right: 70px;
+  background-color: #D5DCE6;
+  margin-right: 760px;
   margin-left: 70px;
+  float: right;
 }
 
 .kontakt__frivillge-tekst{
@@ -501,7 +503,7 @@ padding:20px;
 text-align: center;
 width:50%;
 background-color: #6894B2;
-color: white;
+color: #ffffff;
 }
 
 #festspillercontainer{
