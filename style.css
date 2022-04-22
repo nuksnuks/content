@@ -382,14 +382,21 @@ footer{
 }
 
 
+/* TANIA -FRIVILLIDE - grid */
+.container__frivillige-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
 /* TANIA - FRIVILLIGE - text container */ 
 .container__frivillige{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin-right: 20px;
   margin-left: 20px;
-  color: white;
+  color: #ffffff;
 }
 
 .item__frivillige{
@@ -410,7 +417,6 @@ footer{
 
 .kontakt__frivillige{
   background-color: #D5DCE6;
-  margin-right: 760px;
   margin-left: 70px;
   float: right;
 }
