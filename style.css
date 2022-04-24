@@ -14,7 +14,7 @@ body{
   float:left;
   margin: 10px;
   max-width:200px;
-  max-height:auto;
+  max-height: 110px;
 }
 a{
   text-decoration: none;
@@ -225,7 +225,7 @@ footer{
   margin-bottom: auto;
   margin-top: auto;
   max-width:200px;
-  max-height: auto;
+  max-height: 107px;
 }
 .footerelement{
   justify-content: right;
@@ -243,8 +243,7 @@ footer{
 
 /*Stephanie*/
 
-.h1 {grid-area: 'a';
-}
+.h1 {grid-area: 'a';}
 .info {grid-area: 'b';}
 .info {
   background-color: #7D746E;
@@ -374,7 +373,7 @@ footer{
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: rgba(255, 255, 255, 0,5);
+  background-color: rgba(255, 255, 255, 0.5);
   position: relative;
   border-radius: 6px;
 }
@@ -390,7 +389,7 @@ footer{
 }
 
 
-/* TANIA - FRIVILLIGE - text container */ 
+/* TANIA - FRIVILLIGE - text container */
 .container__frivillige{
   margin-right: 20px;
   margin-left: 20px;
@@ -471,7 +470,7 @@ footer{
   to {opacity: 1}
 }
 /* GALLERI SLUT */
-/* LÆS MERE TXT BOX (frivillige) */ 
+/* LÆS MERE TXT BOX (frivillige) */
   #more {
     display: none;
   }
