@@ -823,6 +823,7 @@ text-align: center;
 
 .h1 {grid-area: a;
   margin-top: 30px;
+  text-align: left;
 }
 .info {grid-area: b;
   background-color: #6894B2;
