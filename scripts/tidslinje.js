@@ -1,6 +1,6 @@
 const billede = ['images/omos/1.jpg', 'images/omos/2.jpg', 'images/omos/3.jpg','images/omos/4.jpg','images/omos/5.jpg'];
 const overskrift = ['1. Juli 1965', '1973', '9. august 1973', 'Store musical produktioner','1995'];
-const tilloop = ["Hej Alle sammen", "dette er et array", "som consollogges"]
+const tilloop = ["Hej Alle sammen", "dette er et array", "som consollogges"];
 let i = 0;
 const vknap = document.getElementById('left_btn');
 const hknap = document.getElementById('right_btn');
