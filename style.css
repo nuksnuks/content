@@ -243,8 +243,6 @@ footer{
 }
 
 /*Stephanie*/
-<<<<<<< HEAD
-=======
 
 .h1 {grid-area: 'a';}
 .info {grid-area: 'b';}
@@ -254,7 +252,6 @@ footer{
   color: #fff;
 }
 
->>>>>>> 2685420830063cb461e07c14120bdcedd873f272
 .container1 {
   display: grid;
   grid-template-areas: 'a b';
@@ -577,7 +574,21 @@ height:275px;
 margin:10px;
 }
 
-<<<<<<< HEAD
+.error{
+  color: #cf2932;
+  background-color: #6894B2;
+  font-size:15px;
+}
+
+.form{
+text-align: center;
+margin-top:30px;
+font-size: 20px;
+background-color: #6894B2;
+}
+
+/* bliv festspiller SLUT*/
+
 @media only screen and (max-width: 1300px) {
   .container1 {
     display: grid;
@@ -631,24 +642,6 @@ margin:10px;
 /*Stephanie slut*/
 
 @media(max-width:800px){
-=======
-.error{
-  color: #cf2932;
-  background-color: #6894B2;
-  font-size:15px;
-}
-
-.form{
-text-align: center;
-margin-top:30px;
-font-size: 20px;
-background-color: #6894B2;
-}
-
-/* bliv festspiller SLUT*/
-
-@media(max-width:768px){
->>>>>>> 2685420830063cb461e07c14120bdcedd873f272
   .hamburger{
       display: block;
   }
@@ -872,7 +865,6 @@ text-align: center;
 }
 
 /*Stephanie slut*/
-<<<<<<< HEAD
 
 
 
@@ -943,6 +935,3 @@ text-align: center;
     display: none;
   }
 /* LÆS MERE TXT BOX SLUT */
-=======
-}
->>>>>>> 2685420830063cb461e07c14120bdcedd873f272
