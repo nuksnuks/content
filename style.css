@@ -206,8 +206,8 @@ a{
   font-size: 71px;
 }
 footer{
-  position:relative;
-  bottom: 0;
+  position: fixed;
+  bottom:0;
   background-color: #24262C;
   width:100vw;
 }
@@ -589,6 +589,77 @@ background-color: #6894B2;
 }
 
 /* bliv festspiller SLUT*/
+/*om os*/
+.tknap{
+  color: black;
+}
+#tid-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+#left_btn{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50vh;
+  left:5vw;
+  z-index: 1;
+}
+#right_btn{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50vh;
+  right:5vw;
+  z-index: 1;
+}
+#tid-overskrift{
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+}
+#tbillede{
+  width:90vw;
+  max-height: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  object-position: top;
+}
+.tidtekst{
+  top: 75vh;
+  left: 5vw;
+  width: 90vw;
+  padding: 20px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  align: center;
+  position: absolute;
+}
+#text1{
+  display: block;
+}
+#text2{
+  display: none;
+}
+#text3{
+  display: none;
+}
+#text4{
+  display: none;
+}
+#text5{
+  display: none;
+}
+/*om os slut*/
 
 @media only screen and (max-width: 1300px) {
   .container1 {
@@ -866,7 +937,16 @@ text-align: center;
 }
 
 /*Stephanie slut*/
-
+.tidtekst{
+  top: 55vh;
+  left: 5vw;
+  width: 90vw;
+  padding: 20px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  align: center;
+}
 
 
 /* TANIA */
