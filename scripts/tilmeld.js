@@ -1,43 +1,44 @@
-function registration(){
-    // get the values from the checkInputs
-    const navnValue = navn.value.trim();
-    const alderValue = alder.value.trim();
-    const rolleValue = rolle.value.trim();
+function validateForm()                                 
+         { 
+             var name = document.forms["myForm"]["name"];         
+             if (name.value == ""){ 
+                 document.getElementById('errorname').innerHTML="Indtast venligst et navn";  
+                 name.focus(); 
+                 return false; 
+             }else{
+                 document.getElementById('errorname').innerHTML="";  
+             }
 
-		if(navn=='')
-		{
-			setErrorFor(navn,'Indtast venligst dit navn');
-		}
+             var alder = document.forms["myForm"]["alder"];         
+             if (alder.value == ""){ 
+                 document.getElementById('erroralder').innerHTML="Indtast venligst en alder";  
+                 alder.focus(); 
+                 return false; 
+             }else{
+                 document.getElementById('erroralder').innerHTML="";  
+             }
 
-        else
-		{
-			setSuccessFor(navn)
-		}
-	
-		if(alder=='')
-		{
-			setErrorFor(alder,'Indtast venligst din alder');
-		}
+             var rolle = document.forms["myForm"]["rolle"];         
+             if (rolle.value == ""){ 
+                 document.getElementById('errorrolle').innerHTML="Indtast venligst en ønsket rolle";  
+                 rolle.focus(); 
+                 return false; 
+             }else{
+                 document.getElementById('errorrolle').innerHTML="";  
+             }
 
-        else
-		{
-			setSuccessFor(alder)
-		}
+            
+         }
+/* Javascript loop*/
+         var s = "";
+for(var i = 1; i < 11; i += 1) {
+  s += i + " ";
+}
+console.log(s);
 
-		if(rolle=='')
-		{
-			setErrorFor(rolle,'Indtast venligst din rolle');
-		}
-
-        else
-		{
-			setSuccessFor(rolle)
-		}
-    }
-	function clearFunc()
-	{
-		document.getElementById("t1").value="";
-		document.getElementById("t2").value="";
-		document.getElementById("t3").value="";
-	
-    }
+/*Javascript array*/
+let stringArray = ["David", "Alex", "Tania", "Stephanie"];  
+console.log(stringArray);  
+for (let str of stringArray) {  
+    console.log(str);  
+} 

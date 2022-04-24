@@ -14,7 +14,7 @@ body{
   float:left;
   margin: 10px;
   max-width:200px;
-  max-height:auto;
+  max-height: 110px;
 }
 a{
   text-decoration: none;
@@ -179,8 +179,8 @@ a{
   margin-left: 33%;
 }
 .omosbillede{
-  width: 43vw;
-  height: 450px;
+  width: 100%;
+  height: 400px;
   object-fit: cover;
   object-position: top;
 }
@@ -226,7 +226,7 @@ footer{
   margin-bottom: auto;
   margin-top: auto;
   max-width:200px;
-  max-height: auto;
+  max-height: 107px;
 }
 .footerelement{
   justify-content: right;
@@ -243,6 +243,18 @@ footer{
 }
 
 /*Stephanie*/
+<<<<<<< HEAD
+=======
+
+.h1 {grid-area: 'a';}
+.info {grid-area: 'b';}
+.info {
+  background-color: #7D746E;
+  padding: 30px;
+  color: #fff;
+}
+
+>>>>>>> 2685420830063cb461e07c14120bdcedd873f272
 .container1 {
   display: grid;
   grid-template-areas: 'a b';
@@ -303,8 +315,7 @@ footer{
 /*forestillinger slut*/
 /*om os*/
 .timeline {
-  position: relative;
-  max-width: 100vw;
+  max-width: 50vw;
   margin: 0 auto;
 }
 
@@ -322,7 +333,6 @@ footer{
 
 /* Container around content */
 .container {
-  padding: 10px 40px;
   position: relative;
   background-color: white;
   width: 50vw;
@@ -349,7 +359,7 @@ footer{
 
 /* Place the container to the right */
 .right {
-  left: 35px;
+  left: 50%;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -360,7 +370,7 @@ footer{
   top: 22px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 50px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
@@ -375,7 +385,7 @@ footer{
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid grey;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
 }
@@ -388,10 +398,109 @@ footer{
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: blue;
+  background-color: rgba(255, 255, 255, 0.5);
   position: relative;
   border-radius: 6px;
 }
+
+
+/* TANIA -FRIVILLIDE - grid */
+.container__frivillige-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/* TANIA - FRIVILLIGE - text container */
+.container__frivillige{
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.item__frivillige{
+  padding: 25px;
+  background-color: #6894B2;
+  width: auto;
+  margin: 10px;;
+}
+
+.overskrift__frivillige{
+  justify-content: center;
+}
+
+.tekst__frivillige{
+  margin-right: 31px;
+  margin-left: 31px;
+}
+
+.kontakt__frivillige{
+  background-color: #D5DCE6;
+  margin-left: 70px;
+  float: right;
+}
+
+.kontakt__frivillge-tekst{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* TANIA - FRIVILLIGE - GALLERI */
+* {box-sizing:border-box}
+
+/* Galleri billeder */
+.galleri-billeder{
+  max-height: 300px;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  min-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: transparent;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* GALLERI SLUT */
+/* LÆS MERE TXT BOX (frivillige) */
+  #more {
+    display: none;
+  }
+/* LÆS MERE TXT BOX SLUT */
+
 
 /*ALEX*/
 /* bliv festspiller*/
@@ -405,7 +514,7 @@ footer{
   font-size: 30px;
 }
 
-#festspillertekst{
+.festspillertekst{
 font-size: 20px;
 color:black;
 margin-top: 30px;
@@ -422,7 +531,7 @@ padding:20px;
 text-align: center;
 width:50%;
 background-color: #6894B2;
-color: white;
+color: #ffffff;
 }
 
 #festspillercontainer{
@@ -459,6 +568,7 @@ padding:10px;
   grid-template-areas:
    'a b c'
    'd e f';
+   margin-bottom: 20px;
   }
 
 .grid{
@@ -467,6 +577,7 @@ height:275px;
 margin:10px;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1300px) {
   .container1 {
     display: grid;
@@ -520,6 +631,24 @@ margin:10px;
 /*Stephanie slut*/
 
 @media(max-width:800px){
+=======
+.error{
+  color: #cf2932;
+  background-color: #6894B2;
+  font-size:15px;
+}
+
+.form{
+text-align: center;
+margin-top:30px;
+font-size: 20px;
+background-color: #6894B2;
+}
+
+/* bliv festspiller SLUT*/
+
+@media(max-width:768px){
+>>>>>>> 2685420830063cb461e07c14120bdcedd873f272
   .hamburger{
       display: block;
   }
@@ -576,7 +705,6 @@ margin:10px;
    }
 
 
-
 @media only screen and (max-width: 750px) {
   #desktop-menu-container{
     display: none;
@@ -629,7 +757,7 @@ margin:10px;
     color:black;
     font-size: 30px;
   }
-  #festspillertekst{
+  .festspillertekst{
   font-size: 20px;
   color:black;
   margin-top: 30px;
@@ -683,10 +811,17 @@ margin:10px;
     }
 
   .grid{
-  width: 450px;
+  width: 100vw;
   height:275px;
   margin:10px;
+  margin-left:0;
+  margin-right:0;
   }
+
+.h1{
+text-align: center;
+
+}
 }
 
 /*Stephanie*/
@@ -737,6 +872,7 @@ margin:10px;
 }
 
 /*Stephanie slut*/
+<<<<<<< HEAD
 
 
 
@@ -807,3 +943,6 @@ margin:10px;
     display: none;
   }
 /* LÆS MERE TXT BOX SLUT */
+=======
+}
+>>>>>>> 2685420830063cb461e07c14120bdcedd873f272
