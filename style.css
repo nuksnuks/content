@@ -209,7 +209,7 @@ a{
   position: absolute;
   background-color: #24262C;
   width:100vw;
-  display: flex;
+  display: none;
   justify-content: space-between;
   flex-direction: row;
 }
