@@ -620,7 +620,7 @@ background-color: #6894B2;
   text-align: center;
   color: white;
   width: 100vw;
-  padding-top: 50px;
+  padding-top: 20px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
 }
 #tbillede{
@@ -926,9 +926,10 @@ background-color: #6894B2;
     }
 
   .grid{
+  object-fit: cover;
   width: 100vw;
   height:275px;
-  margin:10px;
+  margin:0px;
   margin-left:0;
   margin-right:0;
   }

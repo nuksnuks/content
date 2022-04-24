@@ -61,7 +61,8 @@ function frem(){
 }
 
 for (i=0; i<3; i++){
-  console.log(tilloop[i])
+  console.log(tilloop[i]);
+  
 }
 
 
