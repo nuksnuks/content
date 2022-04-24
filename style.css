@@ -173,7 +173,7 @@ a{
 
 #billede1{
   max-width:540px;
-  margin-left: 5%%;
+  margin-left: 5%;
 }
 #billede2{
   max-width:540px;
@@ -194,7 +194,6 @@ a{
   width:540px;
   margin: 0;
   padding: 10px;
-  margin-left: ;
 }
 #timertext{
   text-align:center;
@@ -423,7 +422,8 @@ footer{
   padding: 25px;
   background-color: #6894B2;
   width: auto;
-  margin: 10px;;
+  margin: 10px;
+  margin-top: 10px;
 }
 
 .overskrift__frivillige{
@@ -433,6 +433,7 @@ footer{
 .tekst__frivillige{
   margin-right: 31px;
   margin-left: 31px;
+  padding: 30px;
 }
 
 .kontakt__frivillige{
@@ -936,3 +937,4 @@ text-align: center;
     display: none;
   }
 /* LÆS MERE TXT BOX SLUT */
+}
