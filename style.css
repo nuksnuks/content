@@ -205,13 +205,10 @@ a{
   padding:0px;
   font-size: 71px;
 }
-footer{
-  position: fixed;
-  bottom:0;
+.footer-container{
+  position: absolute;
   background-color: #24262C;
   width:100vw;
-}
-.footer-container{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -949,6 +946,17 @@ text-align: center;
 
 /* TANIA */
 /* FRIVILLIGE */
+.kontakt__frivillige{
+  background-color: #D5DCE6;
+  margin-left: 0px;
+}
+.container__frivillige-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .container__frivillige{
   display: flex;
   flex-direction: row;
