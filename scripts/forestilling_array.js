@@ -7,8 +7,8 @@ function hej2(){
     console.log(hej[i])
   }
   else {
-    i=0;
-    console.log(hej[i])
+    i=2;
+    console.log("et eller andet")
   }
   }
 }

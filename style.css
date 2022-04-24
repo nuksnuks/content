@@ -173,7 +173,6 @@ a{
 
 #billede1{
   max-width:540px;
-  margin-left: 5%;
 }
 #billede2{
   max-width:540px;
@@ -302,8 +301,8 @@ footer{
 }
 
 #pixel{
-  width: 10px;
-  height: 10px;
+  width: 1px;
+  height: 1px;
   position: relative;
   cursor: pointer;
 }
@@ -729,7 +728,6 @@ background-color: #6894B2;
   }
   #billede1{
     max-width:100vw;
-    margin-left: 0;
   }
   #billede2{
     max-width:100vw;
