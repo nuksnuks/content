@@ -33,6 +33,12 @@ a:hover{
 h3, h4{
   line-height: 1;
 }
+#forestillingtekst1{
+  display:none;
+}
+#forestillingtekst2{
+  display:block;
+}
 #desktop-menu-container{
   display: flex;
   position: static;
@@ -240,17 +246,9 @@ a{
 
 /*Stephanie*/
 
-.h1 {grid-area: 'a';}
-.info {grid-area: 'b';}
-.info {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-
 .container1 {
   display: grid;
-  grid-template-areas: 'a b';
+  grid-template-areas: 'box1 box2';
   gap: 10px 10px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -259,13 +257,13 @@ a{
 }
 
 .h1 {
-  grid-area: 'a';
+  grid-area: 'box1';
   padding-right: 100px;
   color: #000000;
 }
 
 .info {
-  grid-area: 'b';
+  grid-area: 'box2';
   background-color: #d5dce6;
   padding: 30px;
   color: #000;
@@ -275,7 +273,7 @@ a{
 
 .container2 {
   display: grid;
-  grid-template-areas: 'a''b';
+  grid-template-areas: '3''4';
   gap: 10px 10px;
   margin-top: 70px;
   margin-bottom: 30px;
@@ -284,14 +282,14 @@ a{
 
 }
 .tekst1 {
-  grid-area: 'a';
+  grid-area: '3';
   background-color: #6894B2;
   padding: 30px;
   color: #fff;
 }
 
 .tekst2 {
-  grid-area: 'b';
+  grid-area: '4';
   background-color: #6894B2;
   padding: 30px;
   color: #fff;
@@ -658,9 +656,15 @@ background-color: #6894B2;
 /*om os slut*/
 
 @media only screen and (max-width: 1300px) {
+  #forestillingtekst1{
+    display:none;
+  }
+  #forestillingtekst2{
+    display:block;
+  }
   .container1 {
     display: grid;
-    grid-template-areas: 'a b';
+    grid-template-areas: 'box1 box2';
     gap: 10px 10px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -669,13 +673,13 @@ background-color: #6894B2;
   }
 
   .h1 {
-    grid-area: 'a';
+    grid-area: 'box1';
     padding-right: 100px;
     color: #000000;
   }
 
   .info {
-    grid-area: 'b';
+    grid-area: 'box2';
     background-color: #d5dce6;
     padding: 30px;
     color: #000;
@@ -685,7 +689,7 @@ background-color: #6894B2;
 
   .container2 {
     display: grid;
-    grid-template-areas: 'a''b';
+    grid-template-areas: '3''4';
     gap: 10px 10px;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -694,14 +698,14 @@ background-color: #6894B2;
 
   }
   .tekst1 {
-    grid-area: 'a';
+    grid-area: '3';
     background-color: #6894B2;
     padding: 30px;
     color: #fff;
   }
 
   .tekst2 {
-    grid-area: 'b';
+    grid-area: '4';
     background-color: #6894B2;
     padding: 30px;
     color: #fff;
@@ -710,6 +714,12 @@ background-color: #6894B2;
 /*Stephanie slut*/
 
 @media(max-width:800px){
+  #forestillingtekst1{
+    display:block;
+  }
+  #forestillingtekst2{
+    display:none;
+  }
   .hamburger{
       display: block;
   }
@@ -893,14 +903,14 @@ text-align: center;
 .info {grid-area: b;
   background-color: #6894B2;
   padding: 30px;
-  width: 450px;
+  width: 100vw;
   height: 350px;
   color: #fff;
 }
 
 .container1 {
   display: grid;
-  grid-template-areas: 'b' 'a';
+  grid-template-areas: 'box1' 'box2';
   gap: 10px 10px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -908,14 +918,14 @@ text-align: center;
   margin-right: 0px;
 
 }
-.tekst1 {grid-area: a;}
 .tekst1 {
+  grid-area: 'box1';
   background-color: #6894B2;
   padding: 30px;
   color: #fff;
 }
-.tekst2 {grid-area: b;}
 .tekst2 {
+  grid-area: 'box2';
   background-color: #6894B2;
   padding: 30px;
   color: #fff;
