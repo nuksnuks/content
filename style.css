@@ -85,15 +85,16 @@ h3, h4{
 }
 .heroknap{
   border-style: none;
-  background-color: black;
+  background-color: #24262C;
   color: white;
+  font-size: 15px;
   border-radius: 5px;
   margin-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px;
   cursor: pointer;
+}
+.heroknap:hover{
+  background-color: #6894B2;
 }
 
 *{
@@ -242,16 +243,6 @@ footer{
 }
 
 /*Stephanie*/
-
-.h1 {grid-area: 'a';
-}
-.info {grid-area: 'b';}
-.info {
-  background-color: #7D746E;
-  padding: 30px;
-  color: #fff;
-}
-
 .container1 {
   display: grid;
   grid-template-areas: 'a b';
@@ -259,33 +250,54 @@ footer{
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 50px;
-  margin-right: 150px;
+  margin-right: 50px;
 }
 
 .h1 {
   grid-area: 'a';
-  padding: 30px;
-  color: black;
+  padding-right: 100px;
+  color: #000000;
 }
 
 .info {
   grid-area: 'b';
-  background-color: black;
+  background-color: #d5dce6;
   padding: 30px;
-  color: #fff;
+  color: #000;
+  width: 450px;
+  height: 350px;
 }
 
 .container2 {
   display: grid;
   grid-template-areas: 'a''b';
   gap: 10px 10px;
-  margin-top: 30px;
+  margin-top: 70px;
   margin-bottom: 30px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 700px;
 
 }
+.tekst1 {
+  grid-area: 'a';
+  background-color: #6894B2;
+  padding: 30px;
+  color: #fff;
+}
 
+.tekst2 {
+  grid-area: 'b';
+  background-color: #6894B2;
+  padding: 30px;
+  color: #fff;
+}
+
+#pixel{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  cursor: pointer;
+}
 /*Stephanie slut*/
 
 /*forestillinger slut*/
@@ -455,7 +467,59 @@ height:275px;
 margin:10px;
 }
 
-@media(max-width:768px){
+@media only screen and (max-width: 1300px) {
+  .container1 {
+    display: grid;
+    grid-template-areas: 'a b';
+    gap: 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .h1 {
+    grid-area: 'a';
+    padding-right: 100px;
+    color: #000000;
+  }
+
+  .info {
+    grid-area: 'b';
+    background-color: #d5dce6;
+    padding: 30px;
+    color: #000;
+    width: 250px;
+    height: 420px;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-areas: 'a''b';
+    gap: 10px 10px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 300px;
+
+  }
+  .tekst1 {
+    grid-area: 'a';
+    background-color: #6894B2;
+    padding: 30px;
+    color: #fff;
+  }
+
+  .tekst2 {
+    grid-area: 'b';
+    background-color: #6894B2;
+    padding: 30px;
+    color: #fff;
+  }
+}
+/*Stephanie slut*/
+
+@media(max-width:800px){
   .hamburger{
       display: block;
   }
@@ -628,22 +692,24 @@ margin:10px;
 /*Stephanie*/
 
 .h1 {grid-area: a;
+  margin-top: 30px;
 }
-.info {grid-area: b;}
-.info {
+.info {grid-area: b;
   background-color: #6894B2;
   padding: 30px;
+  width: 450px;
+  height: 350px;
   color: #fff;
 }
 
 .container1 {
   display: grid;
-  grid-template-areas: 'a' 'b';
+  grid-template-areas: 'b' 'a';
   gap: 10px 10px;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 0px;
 
 }
 .tekst1 {grid-area: a;}
@@ -675,7 +741,7 @@ margin:10px;
 
 
 /* TANIA */
-/* FRIVILLIGE */ 
+/* FRIVILLIGE */
 .container__frivillige{
   display: flex;
   flex-direction: row;
@@ -736,11 +802,8 @@ margin:10px;
 /* GALLERI SLUT */
 
 
-/* LÆS MERE TXT BOX (frivillige) */ 
+/* LÆS MERE TXT BOX (frivillige) */
   #more {
     display: none;
   }
-<<<<<<< HEAD
-=======
 /* LÆS MERE TXT BOX SLUT */
->>>>>>> 66a7682f667e5af035791f966d1d5015538c54f0
